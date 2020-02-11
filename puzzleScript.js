@@ -12,7 +12,7 @@ function shuffle(puzzle) {
        var column2=Math.floor(Math.random()*5 + 1);
         
        swapTiles("cell"+row+column+puzzle,"cell"+row2+column2+puzzle); //Swap both cells
-     } 
+     }
    } 
   } while (isSolvable(getTileOrder(puzzle)));
 }
