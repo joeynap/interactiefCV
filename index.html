@@ -44,7 +44,7 @@
       <!-- TODO: pdf van CV toevoegen -->
       <p>
         Want my full resume without the puzzles? Download the pdf version here:
-        <button class="w3-button w3-white w3-block jgn-hover-orange w3-padding-16" style="border:1px solid black">Resume PDF</button>
+        <button class="w3-button w3-block w3-padding-16 jgn-white-button jgn-hover-orange" style="border:1px solid black">Resume PDF</button>
       </p>
       </div>
     </div>
@@ -56,9 +56,9 @@
 </div>
 
 <!-- Second Grid: Credentials -->
-<div class="w3-row">
+<div class="w3-row" id="credentials">
     <!-- left -->
-  <div class="w3-col s12 l6 w3-white w3-center jgn-puzzlediv" id="credentials">
+  <div class="w3-col s12 l6 w3-white w3-center jgn-puzzlediv">
     <div class="w3-padding-32">
       <h2>Puzzle 1</h2>
       <div id="puzzle1" class="jgn-margin-side" style="display: table;">
@@ -98,6 +98,10 @@
           <div id="cell551" class="tile251" onClick="clickTile(5,5,1);"></div>
         </div>
       </div>
+      <div class="w3-padding-16">
+        <button class="w3-button jgn-white-button jgn-hover-orange jgn-only-mobile" onclick="shuffle(1)">Reset</button>
+      <button class="w3-button jgn-white-button jgn-hover-orange jgn-only-mobile" onclick="checkPuzzle(1)">Done!</button>
+      </div>
     </div>
   </div>
   <!-- right -->
@@ -107,9 +111,9 @@
       <p>A draft from my CV</p>
       <div class="w3-container w3-responsive">
         <div style="display: block;" id="credentialsText">
-            <p style="color: #F77F00">-Complete the puzzle to the left to unlock-</p>
-            <button class="w3-button w3-black jgn-hover-orange" onclick="shuffle(1)">Reset</button>
-            <button class="w3-button w3-black jgn-hover-orange" onclick="checkPuzzle(1)">Done!</button><br>
+            <p style="color: #F77F00">-Complete puzzle 1 to unlock-</p>
+            <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="shuffle(1)">Reset</button>
+            <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="checkPuzzle(1)">Done!</button><br>
             <img src="media/YCNext.png" class="w3-opacity-max w3-hover-opacity-off w3-margin" alt="Result image should look like this." height=200 ondblclick="solvePuzzle(1)"><br>
         </div>
         <table class="w3-table" style="background-color: #F77F00; display: none" id="credentialsTable">
@@ -159,7 +163,7 @@
 </div>
 
 <!-- Third Grid: Experience -->
-<div class="w3-row">
+<div class="w3-row" id="experience">
   <!-- left -->
   <div class="w3-col s12 l6 jgn-dark w3-container jgn-puzzlediv">
     <div class="w3-padding-32 w3-center">
@@ -167,9 +171,9 @@
       <p>My work experience</p>
       <div class="w3-container w3-responsive">
         <div style="display: block;" id="experienceText">
-            <p style="color: #F77F00">-Complete the puzzle to the right to unlock-</p>
-            <button class="w3-button w3-black jgn-hover-orange" onclick="shuffle(2)">Reset</button>
-            <button class="w3-button w3-black jgn-hover-orange" onclick="checkPuzzle(2)">Done!</button><br>
+            <p style="color: #F77F00">-Complete puzzle 2 to unlock-</p>
+            <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="shuffle(2)">Reset</button>
+            <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="checkPuzzle(2)">Done!</button><br>
             <img src="media/LUMC.jpg" class="w3-opacity-max w3-hover-opacity-off w3-margin" alt="Result image should look like this." height=200 ondblclick="solvePuzzle(2)"><br>
         </div>
         <div id="experienceInfo" style="display: none">
@@ -211,7 +215,7 @@
     </div>
   </div>
     <!-- right -->
-    <div class="w3-col s12 l6 w3-white w3-center jgn-puzzlediv" id="experience">
+    <div class="w3-col s12 l6 w3-white w3-center jgn-puzzlediv">
         <div class="w3-padding-32">
           <h2>Puzzle 2</h2>
           <div id="puzzle2" class="jgn-margin-side" style="display: table;">
@@ -251,6 +255,10 @@
               <div id="cell552" class="tile252" onClick="clickTile(5,5,2);"></div>
             </div>
           </div>
+          <div class="w3-padding-16">
+            <button class="w3-button jgn-white-button jgn-hover-orange jgn-only-mobile" onclick="shuffle(2)">Reset</button>
+            <button class="w3-button jgn-white-button jgn-hover-orange jgn-only-mobile" onclick="checkPuzzle(2)">Done!</button>
+          </div>
         </div>
     </div>
 </div>
@@ -260,9 +268,9 @@
 </div>
 
 <!-- Fourth Grid: Hobbies -->
-<div class="w3-row">
+<div class="w3-row" id="hobbies">
   <!-- left -->
-  <div class="w3-col s12 l6 w3-white w3-center jgn-puzzlediv" id="hobbies">
+  <div class="w3-col s12 l6 w3-white w3-center jgn-puzzlediv">
     <div class="w3-padding-32">
       <h2>Puzzle 3</h2>
       <div id="puzzle3" class="jgn-margin-side" style="display: table;">
@@ -302,6 +310,10 @@
           <div id="cell553" class="tile253" onClick="clickTile(5,5,3);"></div>
         </div>
       </div>
+      <div class="w3-padding-16">
+        <button class="w3-button jgn-white-button jgn-hover-orange jgn-only-mobile" onclick="shuffle(3)">Reset</button>
+        <button class="w3-button jgn-white-button jgn-hover-orange jgn-only-mobile" onclick="checkPuzzle(3)">Done!</button>
+      </div>
     </div>
 </div>
   <!-- right -->
@@ -311,9 +323,9 @@
       <p>My hobbies and interests</p>
       <div class="w3-container w3-responsive">
         <div style="display: block;" id="hobbiesText">
-            <p style="color: #F77F00">-Complete the puzzle to the left to unlock-</p>
-            <button class="w3-button w3-black jgn-hover-orange" onclick="shuffle(3)">Reset</button>
-            <button class="w3-button w3-black jgn-hover-orange" onclick="checkPuzzle(3)">Done!</button><br>
+            <p style="color: #F77F00">-Complete puzzle 3 to unlock-</p>
+            <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="shuffle(3)">Reset</button>
+            <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="checkPuzzle(3)">Done!</button><br>
             <img src="media/xbox.png" class="w3-opacity-max w3-hover-opacity-off w3-margin" alt="Result image should look like this." height=200 ondblclick="solvePuzzle(3)"><br>
         </div>
         <div id="hobbiesInfo" style="display: none">
@@ -348,7 +360,7 @@
 <!-- Fifth Grid: Guide -->
 <div class="w3-row" id="guide">
   <!-- left -->
-<div class="w3-col s12 l4 jgn-dark w3-container w3-center jgn-guidediv">
+<div class="w3-col s4 jgn-dark w3-container w3-center jgn-guidediv">
   <div class="w3-padding-32">
     <h1>Guide</h1>
     <h3 style="color: #F77F00;">Learn how to do the puzzles</h3>
@@ -362,12 +374,11 @@
   </div>
 </div>
 <!-- right -->
-<div class="w3-col s12 l8 w3-white w3-container jgn-guidediv">
+<div class="w3-col s8 w3-white w3-container jgn-guidediv">
   <div class="w3-padding-32 w3-center">
-    <h1>Guide</h1>
     <div id="Guide1" style="display: block;">
       <p>
-        <img src="media/guide/guide1.png"><br>
+        <img class="jgn-guideimg" src="media/guide/guide1.png"><br>
         <h3 style="color: #F77F00;">Step 1</h3>
         The image to above is a solved puzzle. We can use numbers to reference each tile.<br>
         A solved puzzle will have all of the tiles ordered from left to 
@@ -377,7 +388,7 @@
     </div>
     <div id="Guide2" style="display: none;">
       <p>
-        <img src="media/guide/guide2.png"><br>
+        <img class="jgn-guideimg" src="media/guide/guide2.png"><br>
         <h3 style="color: #F77F00;">Step 2</h3>
         One possible way to achieve this is to position the tiles like the image above.<br>
         Try not to move tiles 1, 2, or 3. Tile 5 should be directly underneath tile 4.
@@ -385,7 +396,7 @@
     </div>
     <div id="Guide3" style="display: none;">
       <p>
-        <img src="media/guide/guide3.png"><br>
+        <img class="jgn-guideimg" src="media/guide/guide3.png"><br>
         <h3 style="color: #F77F00;">Step 3</h3>
         Now, the board should look something like this after sliding tiles 4 and 5 in the correct 
         position.<br>
@@ -394,14 +405,14 @@
     </div>
     <div id="Guide4" style="display: none;">
       <p>
-        <img src="media/guide/guide4.png"><br>
+        <img class="jgn-guideimg" src="media/guide/guide4.png"><br>
         <h3 style="color: #F77F00;">Step 4</h3>
         The board should look something like this after solving rows 1, 2, and 3.
       </p>
     </div>
     <div id="Guide5" style="display: none;">
       <p>
-        <img src="media/guide/guide5.png"><br>
+        <img class="jgn-guideimg" src="media/guide/guide5.png"><br>
         <h3 style="color: #F77F00;">Step 5</h3>
         The same method used for rows 1, 2 and 3 must now be done per column for row 4 and 5.<br>
         Do this for the first 3 columns from left to right.<br>

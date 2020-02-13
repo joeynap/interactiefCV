@@ -235,17 +235,30 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .jgn-dark,.jgn-hover-dark:hover{color: #fff!important; background-color: #111111!important}
 .jgn-orange,.jgn-hover-orange:hover{color: #fff!important; background-color: #F77F00!important}
 .jgn-margin-side{margin-left:auto!important; margin-right:auto!important}
+.jgn-white-button{color: #000;background-color: #fff;border:1px solid black}
 .jgn-puzzlediv{min-height: 400px;}
 @media only screen and (min-width: 993px) {
     .jgn-puzzlediv{min-height: 800px;}
 }
-.jgn-guidediv{min-height: fit-content;}
+.jgn-guidediv{min-height: 650px;}
 @media only screen and (min-width: 993px) {
     .jgn-guidediv{height: 625px;}
 }
 .jgn-break{height: 5px;}
 @media only screen and (min-width: 993px) {
     .jgn-break{height: 10px;}
+}
+.jgn-only-mobile{display: inline;}
+@media only screen and (min-width: 993px) {
+    .jgn-only-mobile{display: none;}
+}
+.jgn-only-desktop{display: none;}
+@media only screen and (min-width: 993px) {
+    .jgn-only-desktop{display: inline;}
+}
+.jgn-guideimg{width: 256px;}
+@media only screen and (min-width: 993px){
+    .jgn-guideimg{width: 321px;}
 }
 
 .tile11, .tile21, .tile31, .tile41, .tile51, .tile61, .tile71, .tile81, .tile91, .tile101,
