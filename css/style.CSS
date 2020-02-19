@@ -256,7 +256,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media only screen and (min-width: 993px) {
     .jgn-only-desktop{display: inline;}
 }
-.jgn-guideimg{width: 256px;}
+.jgn-guideimg{width: 192px;}
 @media only screen and (min-width: 993px){
     .jgn-guideimg{width: 321px;}
 }

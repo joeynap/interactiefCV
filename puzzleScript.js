@@ -64,12 +64,15 @@ function checkPuzzle(puzzle) {
     if (puzzle==1) {
       document.getElementById("credentialsText").style.display = "none";
       document.getElementById("credentialsTable").style.display = "block";
+      document.getElementById("credentialsTable").classList.add('w3-animate-opacity');
     } else if (puzzle == 2) {
       document.getElementById("experienceText").style.display = "none";
       document.getElementById("experienceInfo").style.display = "block";
+      document.getElementById("experienceInfo").classList.add('w3-animate-opacity');
     } else if (puzzle == 3) {
       document.getElementById("hobbiesText").style.display = "none";
       document.getElementById("hobbiesInfo").style.display = "block";
+      document.getElementById("hobbiesInfo").classList.add('w3-animate-opacity');
     }
 }
 
