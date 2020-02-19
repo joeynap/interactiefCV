@@ -63,7 +63,7 @@ function checkPuzzle(puzzle) {
     }
     if (puzzle==1) {
       document.getElementById("credentialsText").style.display = "none";
-      document.getElementById("credentialsTable").style.display = "block";
+      document.getElementById("credentialsTable").style.display = "inline-block";
       document.getElementById("credentialsTable").classList.add('w3-animate-opacity');
     } else if (puzzle == 2) {
       document.getElementById("experienceText").style.display = "none";

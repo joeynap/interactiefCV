@@ -41,7 +41,6 @@
         <small style="color:#ffd1a1">Hint:</small>
         <small style="color:#d1d1d1">Double-click the small example images to have the puzzle solved for you!</small>
       </p>
-      <!-- TODO: pdf van CV toevoegen -->
       <p>
         Want my full resume without the puzzles? Download the pdf version here:
         <a href="media/Resume_JoeyNap.pdf" target="_blank" class="w3-button w3-block w3-padding-16 jgn-white-button jgn-hover-orange" style="border:1px solid black">Resume PDF</a>
@@ -109,15 +108,14 @@
     <div class="w3-padding-32 w3-center">
       <h2>Credentials</h2>
       <p>A draft from my CV</p>
-      <div class="w3-container w3-responsive">
         <div style="display: block;" id="credentialsText">
             <p style="color: #F77F00">-Complete puzzle 1 to unlock-</p>
             <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="shuffle(1)">Reset</button>
             <button class="w3-button w3-black jgn-hover-orange jgn-only-desktop" onclick="checkPuzzle(1)">Done!</button><br>
             <img src="media/YCNext.png" class="w3-opacity-max w3-hover-opacity-off w3-margin" alt="Result image should look like this." height=200 ondblclick="solvePuzzle(1)"><br>
         </div>
-        <table class="w3-table" style="background-color: #F77F00; display: none" id="credentialsTable">
-          <tr>
+        <table class="w3-table" style="display: none" id="credentialsTable">
+          <tr class="jgn-orange">
             <th>Year</th>
             <th>Title</th>
             <th>Where</th>
@@ -127,7 +125,7 @@
             <td>vmbo-T</td>
             <td>Coenecoop college, Waddinxveen</td>
           </tr>
-          <tr>
+          <tr class="jgn-orange">
             <td>2013-2015</td>
             <td>Havo</td>
             <td>Coenecoop college, Waddinxveen</td>
@@ -137,7 +135,7 @@
             <td>Bachelor of Bioinformatics</td>
             <td>UAS Leiden, Leiden</td>
           </tr>
-          <tr>
+          <tr class="jgn-orange">
             <td>okt. 2019-present</td>
             <td>JAVA Traineeship</td>
             <td>YoungCapital NEXT</td>
@@ -147,13 +145,12 @@
             <td>Scrum.org PSM1 certificate</td>
             <td>Through Traineeship</td>
           </tr>
-          <tr class="w3-hide-medium">
+          <tr class="jgn-orange w3-hide-medium">
             <td>dec. 2019</td>
             <td>1ZO-808 Java SE8 Programmer (OCA)</td>
             <td>Through Traineeship</td>
           </tr>
         </table>
-      </div>
     </div>
   </div>
 </div>
