@@ -240,9 +240,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media only screen and (min-width: 993px) {
     .jgn-puzzlediv{min-height: 800px;}
 }
-.jgn-guidediv{min-height: 650px;}
+.jgn-guidediv{min-height: 620px;}
 @media only screen and (min-width: 993px) {
-    .jgn-guidediv{height: 625px;}
+    .jgn-guidediv{height: 600px;}
 }
 .jgn-break{height: 5px;}
 @media only screen and (min-width: 993px) {
